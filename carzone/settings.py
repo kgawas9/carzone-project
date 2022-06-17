@@ -13,15 +13,19 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from pathlib import Path
 
 import os
+import environ
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+env = environ.Env(DEBUG=(bool, False))
+environ.Env.read_env()
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-khit6-mj*kt@9nl1d^u3x81fet^$(fe3xnah-d9(w&f8=czd3)'
+SECRET_KEY = env('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -79,8 +83,11 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'carzone_db',
+        'USER': 'postgres',
+        'PASSWORD': env('POSTGRESQL_PASSWORD'),
+        'HOST': 'localhost',
     }
 }
 
