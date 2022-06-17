@@ -45,6 +45,9 @@ INSTALLED_APPS = [
 
     # custom apps
     'pages',
+    'cars',
+
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
