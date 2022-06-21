@@ -132,10 +132,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'carzone/static'),
+    os.path.join(BASE_DIR, 'carzone/static/'),
 ]
 
 # Default primary key field type
@@ -146,3 +146,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Media settings
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
