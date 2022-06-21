@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     # custom apps
     'pages',
     'cars',
+    'accounts',
 
     'ckeditor',
 ]
