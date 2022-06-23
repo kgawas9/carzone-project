@@ -1,0 +1,331 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$J1JVBIe5s2nnOmfb5ffqJQ$ySHNEC3wkOoAU7A/tR/A3uT0Incb5VQXw1mvz1BfsUo=",
+        "last_login": "2022-06-23T17:38:04.377Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Kiran",
+        "last_name": "Gawas",
+        "email": "kgawas9@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-06-17T14:58:54Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$dsZIUZaSd77pYgn13SrnmL$C0yrZKhMjHjMRYiOYUQ/tq3Samff1CdM89P2E5+n1rk=",
+        "last_login": "2022-06-21T18:00:57.712Z",
+        "is_superuser": false,
+        "username": "kgawas9",
+        "first_name": "Kiran",
+        "last_name": "Gawas",
+        "email": "kgawas9@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-06-21T17:24:22.661Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!4gMDiUXH1u3DkPcOskDZQ67CYizk9BG1vejADvzg",
+        "last_login": "2022-06-23T07:49:39.213Z",
+        "is_superuser": false,
+        "username": "kiran",
+        "first_name": "Kiran",
+        "last_name": "Gawas",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-06-22T15:32:18.458Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "f2zj8afpbgdpubxqhivz1orjhzgstkry",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyFs6CJ49O43EGBZqRpISntq_Hcl6UFvk3lvZhc-bGvxW8-Ln0lcBIjTbxdDeuY6AD1CvTeZWl2XOcqhyIN2eWuUX9fD_TsooZexNg4DklMRbCTSQTvDkzbMBABKsz5_g3UGMjIqq4gNIE8WlXMJWbw_2vw3VA:1o44RU:VArgiPxcheSdiDDhUz2Qd2kauOZ8OapqHz3ryw_niiQ",
+        "expire_date": "2022-07-06T17:47:04.365Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "j5a2njcfyxdi1q2zng35jtk0xqgksltq",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyFs6CJ49O43EGBZqRpISntq_Hcl6UFvk3lvZhc-bGvxW8-Ln0lcBIjTbxdDeuY6AD1CvTeZWl2XOcqhyIN2eWuUX9fD_TsooZexNg4DklMRbCTSQTvDkzbMBABKsz5_g3UGMjIqq4gNIE8WlXMJWbw_2vw3VA:1o4QmK:yZFqff4dgt-n8lTqYQIifLnSCaK3LZtzD4MXcLqyc3E",
+        "expire_date": "2022-07-07T17:38:04.382Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "n45m9rr9tqdua8dn0krdyd6717hc7fhk",
+    "fields": {
+        "session_data": ".eJxVjMEOgjAQRP-lZ9NsWmBbb_ojZJluA5GURMrJ-O-C4aDHeTPzXqaXrY79tuqzn5K5Gm8uv2wQPLQchczzga0Ay1aq_W7OerW3PWmpE6ROS7mfrz_VKOu4e5wERx1l6RjCwg1iF5UZlJs4NHnwrk0phsyBlSgowbuEtgUglIN5fwC8ETy1:1o4Hat:TFo9i8aISG3J_bQSvvt6JJoKUTBJeehznG4zuvFRiUY",
+        "expire_date": "2022-07-07T07:49:39.217Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "w8bbfi13ibjk7aefnx7tocrgi2m73bn8",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEyUAou3fsNzQwzSNVA0sfK-O-2SRe6veec-1YDrksZ1lmmYWR1UaBOvxthekrdAT-w3ptOrS7TSHpX9EFnfWssr-vh_h0UnMtW9wAdEZJJKOAjxiBdYMeGUrY9GrY5CljH0ZPLAdBByLyJJvqzkFWfL_53OGg:1o3iBN:92fgWxlcM1VhYT1i68QuVjI4YOmTFEFltTBx-H-iq8k",
+        "expire_date": "2022-07-05T18:00:57.715Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Kiran",
+        "last_name": "Gawas",
+        "designation": "Solution Architect",
+        "image": "teams/images/2022/06/17/Kiran.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-06-17T15:10:21.335Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Founder",
+        "image": "teams/images/2022/06/17/avatar-1.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-06-17T15:45:43.608Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Caroline",
+        "designation": "Creative Director",
+        "image": "teams/images/2022/06/17/avatar-2.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-06-17T15:46:41.800Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Manager",
+        "image": "teams/images/2022/06/17/avatar-3.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-06-17T15:47:16.936Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "CEO",
+        "image": "teams/images/2022/06/17/avatar-4.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-06-17T15:48:02.088Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Butler",
+        "designation": "Developer",
+        "image": "teams/images/2022/06/17/avatar-12.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-06-17T15:48:55.150Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 7,
+    "fields": {
+        "first_name": "Rupali",
+        "last_name": "Gawas",
+        "designation": "HR",
+        "image": "teams/images/2022/06/17/avatar-9.jpg",
+        "facebook_link": "https://www.facebook.com/rupali.gawas.71",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-06-17T16:39:57.146Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "Ausine",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2018,
+        "condition": "Used",
+        "price": "40000.00",
+        "description": "<p>The&nbsp;<span style=\"color:#c0392b\"><strong>Ferrari 488</strong></span>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\">[8]</a>&nbsp;The 488 was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8_Tributo\" title=\"Ferrari F8 Tributo\">F8 Tributo</a>&nbsp;in February 2019.</p>",
+        "car_image": "cars/images/2022/06/18/1902536891_fNpJUpR.jpg",
+        "car_image_1": "cars/images/2022/06/18/1902536917_TcGd6n5.jpg",
+        "car_image_2": "cars/images/2022/06/18/1902537043_0YzEK3X.jpg",
+        "car_image_3": "cars/images/2022/06/18/1902537077_n2NM928.jpg",
+        "car_image_4": "cars/images/2022/06/18/1902537082_YUSwRCz.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop",
+        "body_style": "Sports",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 12000,
+        "doors": "2",
+        "passangers": 2,
+        "vehicle_no": "TX34JD1122",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": 1,
+        "is_featured": true,
+        "created_at": "2022-06-18T00:29:34Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "CA",
+        "city": "California",
+        "color": "Black",
+        "model": "Ford Edge",
+        "year": 2015,
+        "condition": "Used",
+        "price": "30000.00",
+        "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a range of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUVs</a>&nbsp;manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced for the 2007 model year, the Edge is the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is positioned between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>\r\n\r\n<p>Sharing its underpinnings with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)\" title=\"Ford Fusion (Americas)\">Ford Fusion sedan</a>, Ford has also produced the model line as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lincoln_MKX\" title=\"Lincoln MKX\">Lincoln MKX</a>&nbsp;(since 2019, the Lincoln Nautilus); the first generation was also produced as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mazda_CX-9\" title=\"Mazda CX-9\">Mazda CX-9</a>. The second generation is also marketed by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_of_Europe\" title=\"Ford of Europe\">Ford of Europe</a>, positioned between the Kuga (Escape) and the Explorer PHEV.</p>\r\n\r\n<p>All production of the Ford Edge is sourced from&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company_of_Canada\" title=\"Ford Motor Company of Canada\">Ford of Canada</a>&nbsp;at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Oakville_Assembly\" title=\"Oakville Assembly\">Oakville Assembly</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Oakville,_Ontario\" title=\"Oakville, Ontario\">Oakville, Ontario</a>) alongside the Nautilus.</p>",
+        "car_image": "cars/images/2022/06/19/1901478607.jpg",
+        "car_image_1": "cars/images/2022/06/19/1901478618.jpg",
+        "car_image_2": "cars/images/2022/06/19/1901478646.jpg",
+        "car_image_3": "cars/images/2022/06/19/1901478672.jpg",
+        "car_image_4": "cars/images/2022/06/19/1901478687.jpg",
+        "features": "Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Reversing Camera,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V5",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 16000,
+        "doors": "4",
+        "passangers": 5,
+        "vehicle_no": "CL11LL4432",
+        "milage": 4,
+        "fuel_type": "Diesel",
+        "no_of_owners": 2,
+        "is_featured": false,
+        "created_at": "2022-06-19T13:07:29Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2018 Ford F-250 Super Duty",
+        "state": "KS",
+        "city": "Kansas",
+        "color": "Red-black",
+        "model": "F-250 Super Duty",
+        "year": 2018,
+        "condition": "Good",
+        "price": "60000.00",
+        "description": "<p>For the 1958&ndash;1981 Ford V8 engine family, see&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Super_Duty_engine\" title=\"Ford Super Duty engine\">Ford Super Duty engine</a>. For the medium-duty Ford (F-650/F-750), see&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series_(medium_duty_truck)\" title=\"Ford F-Series (medium duty truck)\">Ford F-Series (medium duty truck)</a>.</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Ford F-250/F-350/F-450/F-550/F-600</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"2\"><a href=\"https://en.wikipedia.org/wiki/File:2020_Ford_Super_Duty._This_vehicle_is_owned_by_the_Liberty_53_School_District_and_is_used_to_pursue_facilities_maintenance_operations,_this_is_the_current_generation_of_this_vehicle,_and_had_a_sale_price_of_$31,687.jpg\"><img alt=\"2020 Ford Super Duty. This vehicle is owned by the Liberty 53 School District and is used to pursue facilities maintenance operations, this is the current generation of this vehicle, and had a sale price of $31,687.jpg\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/2020_Ford_Super_Duty._This_vehicle_is_owned_by_the_Liberty_53_School_District_and_is_used_to_pursue_facilities_maintenance_operations%2C_this_is_the_current_generation_of_this_vehicle%2C_and_had_a_sale_price_of_%2431%2C687.jpg/280px-thumbnail.jpg\" style=\"height:185px; width:280px\" /></a>\r\n\t\t\t<p>2020 Ford F-250</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Overview</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Manufacturer</th>\r\n\t\t\t<td><a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Production</th>\r\n\t\t\t<td>January 5, 1998&ndash;present<a href=\"https://en.wikipedia.org/wiki/Ford_Super_Duty#cite_note-1\">[1]</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Model_year\" title=\"Model year\">Model&nbsp;years</a></th>\r\n\t\t\t<td>1999&ndash;present</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Assembly</th>\r\n\t\t\t<td><a href=\"https://en.wikipedia.org/wiki/Louisville,_Kentucky\" title=\"Louisville, Kentucky\">Louisville, Kentucky</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Kentucky_Truck_Plant\" title=\"Kentucky Truck Plant\">Kentucky Truck Plant</a>)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Body and chassis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Car_classification\" title=\"Car classification\">Class</a></th>\r\n\t\t\t<td>Heavy duty&nbsp;<a href=\"https://en.wikipedia.org/wiki/Pickup_truck\" title=\"Pickup truck\">pickup truck</a><br />\r\n\t\t\t<a href=\"https://en.wikipedia.org/wiki/Medium-duty_truck\" title=\"Medium-duty truck\">Medium-duty truck</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Automobile_layout\" title=\"Automobile layout\">Layout</a></th>\r\n\t\t\t<td><a href=\"https://en.wikipedia.org/wiki/Front-engine_design\" title=\"Front-engine design\">Front engine</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear-wheel_drive\" title=\"Rear-wheel drive\">rear-wheel drive</a>&nbsp;/&nbsp;<a href=\"https://en.wikipedia.org/wiki/Four_wheel_drive\" title=\"Four wheel drive\">four wheel drive</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Chronology</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Predecessor</th>\r\n\t\t\t<td><a href=\"https://en.wikipedia.org/wiki/Ford_F-Series_ninth_generation\" title=\"Ford F-Series ninth generation\">Ford F-250/F-350/F-Super Duty</a>&nbsp;(1953&ndash;1997)</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(short for F-Series Super Duty) is a series of trucks manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;since the 1999 model year. Slotted above the consumer-oriented Ford F-150, the Super Duty trucks are an expansion of the Ford F-Series range, from the F-250 to the F-550. Rather than adapting lighter-duty trucks for heavier use, Super Duty trucks have been designed as a dedicated variant of the Ford F-Series, including pickup trucks and chassis cab vehicles; the Ford F-450 is the largest pickup truck offered for sale in North America.</p>\r\n\r\n<p>Currently in their fourth generation, Super Duty trucks use a separate chassis from the F-150, including heavier-duty frame and chassis components, which allows for heavier payloads and towing capabilities. With a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Gross_vehicle_weight_rating\" title=\"Gross vehicle weight rating\">GVWR</a>&nbsp;over 8,500&nbsp;lb (3,900&nbsp;kg), Super Duty pickups are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truck_classification\" title=\"Truck classification\">Class 2 and 3</a>&nbsp;trucks; chassis cab trucks are offered in Class 4 and 5 sizes. The model line also offers&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Power_Stroke_engine\" title=\"Ford Power Stroke engine\">Ford PowerStroke</a>&nbsp;V8 diesel engines as an option.</p>",
+        "car_image": "cars/images/2022/06/19/1894300894.jpg",
+        "car_image_1": "cars/images/2022/06/19/1894300905.jpg",
+        "car_image_2": "cars/images/2022/06/19/1894300920.jpg",
+        "car_image_3": "cars/images/2022/06/19/1900155012.jpg",
+        "car_image_4": "",
+        "features": "Airbags,Air Conditioning,Seat Heating,Alarm System,Power Steering,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "Truck",
+        "engine": "5.5L High-Engine",
+        "transmission": "Manual",
+        "interior": "Red",
+        "miles": 4000,
+        "doors": "2",
+        "passangers": 2,
+        "vehicle_no": "KA33LD3434",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": 1,
+        "is_featured": true,
+        "created_at": "2022-06-19T13:10:53Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "AL",
+        "city": "Alabama",
+        "color": "Black",
+        "model": "Jaguar F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": "80000.00",
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_executive_car\" title=\"Compact executive car\">compact luxury</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_SUV\" title=\"Crossover SUV\">crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Automaker\" title=\"Automaker\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\" title=\"Jaguar Cars\">Jaguar marque</a>. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/North_American_International_Auto_Show#2015\" title=\"North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/International_Motor_Show_Germany#2015\" title=\"International Motor Show Germany\">International Motor Show Germany</a>&nbsp;in Frankfurt in September 2015.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-4\">[4]</a>&nbsp;The design of the F-Pace is based on the 2013&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17</a>&nbsp;concept car.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]</a>&nbsp;The 2017 Jaguar F-PACE has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-6\">[6]</a></p>",
+        "car_image": "cars/images/2022/06/19/1902932503.jpg",
+        "car_image_1": "cars/images/2022/06/19/1902932514.jpg",
+        "car_image_2": "cars/images/2022/06/19/1902932528.jpg",
+        "car_image_3": "cars/images/2022/06/19/1902932542.jpg",
+        "car_image_4": "",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop,Wind Deflector",
+        "body_style": "SUV",
+        "engine": "3.8L Mid-Engine",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 11000,
+        "doors": "4",
+        "passangers": 7,
+        "vehicle_no": "AJ45L32",
+        "milage": 6,
+        "fuel_type": "Diesel",
+        "no_of_owners": 2,
+        "is_featured": true,
+        "created_at": "2022-06-19T13:37:41Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "CA",
+        "city": "California",
+        "color": "Grey",
+        "model": "Toyota 4Runner",
+        "year": 2016,
+        "condition": "Used",
+        "price": "24000.00",
+        "description": 
