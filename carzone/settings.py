@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-khit6-mj*kt@9nl1d^u3x81fet^$(fe3xnah-d9(w&f8=czd3)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['serene-wave-56672.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 # Application definition
