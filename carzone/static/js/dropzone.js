@@ -1628,13 +1628,7 @@
     Dropzone.SUCCESS = "success";
 
 
-    /*
-
-     Bugfix for iOS 6 and 7
-     Source: http://stackoverflow.com/questions/11929099/html5-canvas-drawimage-ratio-bug-ios
-     based on the work of https://github.com/stomita/ios-imagefile-megapixel
-     */
-
+  
     detectVerticalSquash = function(img) {
         var alpha, canvas, ctx, data, ey, ih, iw, py, ratio, sy;
         iw = img.naturalWidth;
@@ -1672,20 +1666,7 @@
     };
 
 
-    /*
-     * contentloaded.js
-     *
-     * Author: Diego Perini (diego.perini at gmail.com)
-     * Summary: cross-browser wrapper for DOMContentLoaded
-     * Updated: 20101020
-     * License: MIT
-     * Version: 1.2
-     *
-     * URL:
-     * http://javascript.nwbox.com/ContentLoaded/
-     * http://javascript.nwbox.com/ContentLoaded/MIT-LICENSE
-     */
-
+  
     contentLoaded = function(win, fn) {
         var add, doc, done, init, poll, pre, rem, root, top;
         done = false;
